@@ -1,6 +1,6 @@
 # 🧠 HabitFlow - Gamificação de Hábitos para Estudantes
 
-> Projeto desenvolvido como requisito parcial da disciplina **Tecnologia e Comportamento Humano** do curso de Psicologia.
+> Projeto desenvolvido como requisito final da disciplina **Tecnologia e Comportamento Humano** do curso de Psicologia.
 
 ## 📖 Sobre o Projeto
 
@@ -12,9 +12,9 @@ O diferencial do projeto é o sistema de recompensas: o tempo de lazer (Chat Soc
 
 * **🍅 Método Pomodoro Integrado:** Timer de foco (25 min) intercalado com pausas, visando a gestão de tempo e redução da ansiedade.
 * **🤖 Roteiros de Estudo via IA:** Simulação de geração automática de tópicos de estudo baseados na temática escolhida pelo usuário.
-* **📝 Exercícios de Fixação (Quiz):** Avaliação pós-estudo. O desempenho (acerto > 75%) define a magnitude da recompensa.
-* **💬 Chat Social Isométrico (Estilo Habbo):** Uma sala virtual onde os estudantes podem interagir com seus avatares. O tempo de permanência na sala é "comprado" com tempo de estudo.
-* **🪙 Economia de Fichas (Token Economy):** O usuário ganha moedas virtuais ao estudar, que podem ser trocadas por itens cosméticos.
+* **📝 Exercícios de Fixação:** Avaliação pós-estudo. O desempenho (acerto > 75%) define a magnitude da recompensa.
+* **💬 Chat Social Isométrico:** Uma sala virtual onde os estudantes podem interagir com seus avatares. O tempo de permanência na sala é "comprado" com tempo de estudo.
+* **🪙 Economia de Fichas:** O usuário ganha moedas virtuais ao estudar, que podem ser trocadas por itens cosméticos.
 * **👕 Loja de Avatares:** Personalização do personagem com chapéus, roupas e fundos.
 
 ## 🧠 Fundamentação Teórica
