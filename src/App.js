@@ -24,7 +24,7 @@ export default function App() {
   
   // Estado para armazenar dados do usuário (simulado)
   const [user, setUser] = useState({
-    name: 'Kauê', // Usei um nome do seu documento :)
+    name: 'Kauê', 
     coins: 150,
     chatTime: 10, // em minutos
     avatar: {
@@ -347,7 +347,7 @@ function QuizScreen({ setPage, studySession, setUser, setQuizResult }) {
     let coinsEarned = 10;
     let chatTimeEarned = 0;
 
-    // Lógica de Recompensa (do PDF)
+    // Lógica de Recompensa
     if (score >= 75) {
       // 10 a 100 moedas
       coinsEarned = Math.max(10, Math.min(100, Math.floor(score * 1.0)));
@@ -469,7 +469,7 @@ function ResultsScreen({ setPage, quizResult }) {
   );
 }
 
-// --- Tela 6: Chat (Estilo Habbo - Isométrico) ---
+// --- Tela 6: Chat ---
 
 // Componente de Balão de Fala
 function SpeechBubble({ text }) {
@@ -614,9 +614,9 @@ function ChatScreen({ setPage, user, setUser }) {
         </div>
       </header>
       
-      {/* "Sala" Virtual Isométrica */}
+      {/* "Sala" */}
       <div className="flex-1 relative overflow-hidden bg-gradient-to-br from-yellow-800 to-amber-900">
-        {/* Chão (simulado isométrico) */}
+        {/* Chão */}
         <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-yellow-700 transform -skew-y-12 origin-bottom-left"></div>
         <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-yellow-600 transform skew-y-12 origin-bottom-right opacity-70"></div>
         <div className="absolute bottom-0 left-0 right-0 h-[20%] bg-yellow-500"></div> {/* Centro do chão */}
@@ -626,7 +626,7 @@ function ChatScreen({ setPage, user, setUser }) {
         <div className="absolute top-0 left-0 h-full w-[30%] bg-amber-800 transform skew-x-12 origin-top-left"></div> {/* Parede esquerda */}
         <div className="absolute top-0 right-0 h-full w-[30%] bg-amber-800 transform -skew-x-12 origin-top-right"></div> {/* Parede direita */}
 
-        {/* Elementos de "Móveis" (simulados em pixel art) */}
+        {/* Elementos de "Móveis" */}
         {/* Mesa de Estudo */}
         <div className="absolute left-[10%] bottom-[40%] w-24 h-16 bg-brown-700 border-b-4 border-brown-900" 
              style={{ transform: 'skewY(-12deg) rotateX(20deg)' }}> {/* Perspectiva */}
