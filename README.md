@@ -45,7 +45,7 @@ Para executar este projeto localmente, você precisará do [Node.js](https://nod
 
 1. **Clone o repositório:**
     ```bash
-    git clone [https://github.com/marcosemanuelss/habitflow.git](https://github.com/marcosemanuelss/habitflow.git)
+    git clone https://github.com/marcosemanuelss/habitflow.git
     ```
 
 2. **Entre na pasta do projeto:**
