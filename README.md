@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# 🧠 HabitFlow - Gamificação de Hábitos para Estudantes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Projeto desenvolvido como requisito parcial da disciplina **Tecnologia e Comportamento Humano** do curso de Psicologia.
 
-## Available Scripts
+## 📖 Sobre o Projeto
 
-In the project directory, you can run:
+O **HabitFlow** é uma aplicação web desenvolvida para auxiliar estudantes no gerenciamento da procrastinação acadêmica através de estratégias de gamificação. O aplicativo utiliza conceitos da **Psicologia Comportamental** (especificamente o Condicionamento Operante de Skinner) para reforçar hábitos de estudo positivos.
 
-### `npm start`
+O diferencial do projeto é o sistema de recompensas: o tempo de lazer (Chat Social) e a personalização do avatar só são liberados mediante o cumprimento de metas de estudo e acertos em exercícios de fixação.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **🍅 Método Pomodoro Integrado:** Timer de foco (25 min) intercalado com pausas, visando a gestão de tempo e redução da ansiedade.
+* **🤖 Roteiros de Estudo via IA:** Simulação de geração automática de tópicos de estudo baseados na temática escolhida pelo usuário.
+* **📝 Exercícios de Fixação (Quiz):** Avaliação pós-estudo. O desempenho (acerto > 75%) define a magnitude da recompensa.
+* **💬 Chat Social Isométrico (Estilo Habbo):** Uma sala virtual onde os estudantes podem interagir com seus avatares. O tempo de permanência na sala é "comprado" com tempo de estudo.
+* **🪙 Economia de Fichas (Token Economy):** O usuário ganha moedas virtuais ao estudar, que podem ser trocadas por itens cosméticos.
+* **👕 Loja de Avatares:** Personalização do personagem com chapéus, roupas e fundos.
 
-### `npm test`
+## 🧠 Fundamentação Teórica
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O projeto baseia-se em princípios sólidos da psicologia:
 
-### `npm run build`
+1. **Reforço Positivo:** Moedas e itens cosméticos aumentam a probabilidade do comportamento de estudar se repetir.
+2. **Princípio de Premack:** Utilizar uma atividade de alta probabilidade (conversar no chat) como reforçador para uma de baixa probabilidade (estudar).
+3. **Autorregulação:** O uso de cronômetros e roteiros ajuda o aluno a desenvolver autonomia.
+4. **Engajamento Social:** O chat cria um senso de comunidade e pertencimento, essencial para a retenção.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tecnologias Utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **Frontend:** [React.js](https://reactjs.org/)
+* **Estilização:** [Tailwind CSS](https://tailwindcss.com/)
+* **Ícones:** [Lucide React](https://lucide.dev/)
+* **Ambiente:** Node.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📸 Telas do Projeto
 
-### `npm run eject`
+| Dashboard | Sessão de Estudo | Chat Isométrico |
+|:---:|:---:|:---:|
+| Visão geral, moedas e amigos | Timer Pomodoro e Roteiro | Interação social com avatares |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔧 Como Rodar o Projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para executar este projeto localmente, você precisará do [Node.js](https://nodejs.org/) instalado.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/seu-usuario/habitflow.git](https://github.com/seu-usuario/habitflow.git)
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Entre na pasta do projeto:**
+    ```bash
+    cd habitflow
+    ```
 
-## Learn More
+3. **Instale as dependências:**
+    ```bash
+    npm install
+    # Instale também as bibliotecas específicas de UI utilizadas
+    npm install lucide-react
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Execute a aplicação:**
+    ```bash
+    npm start
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+O aplicativo estará disponível em `http://localhost:3000`.
 
-### Code Splitting
+## 👥 Autores (Equipe)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Projeto idealizado e desenvolvido por discentes do curso de Psicologia:
 
-### Analyzing the Bundle Size
+* **Ingreed Rafaele Souza Feitosa**
+* **Kauê Egídio de Aragão Romero Santos**
+* **Lurdes Mylla Cardoso Oliveira**
+* **Marcos Emanuel de Souza Santos**
+* **Ricardo Menezes Carvalho**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Instituição:** Universidade Tiradentes (Unit) - Aracaju/SE
+**Ano:** 2025
